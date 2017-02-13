@@ -47,10 +47,60 @@ F = C × 1.8 + 32
 C = (F - 32) / 1.8
 */
 
-var cel = parseInt(prompt("What is the temp in celsius?"));
+/* var cel = parseInt(prompt("What is the temp in celsius?"));
 var f = cel * 1.8 + 32;
 alert(f);
 
 var far = parseInt(prompt("What is the temp in fahrenheit?"));
 var c = (far - 32) / 1.8;
 alert(c);
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1 gallon  = 3.785411784 liters */
+
+
+var totalgallons = function() {
+  //alert("this is totalgallons function.");
+  var gallons = prompt("How many gallons do we have?");
+  var liter = parseFloat(gallons) * 3.785411784;
+  alert("you have total " + liter);
+//  return liter;
+}
+//totalgallons(); //call method//
+
+var result = totalgallons();
+alert(result + 6);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* will convert gallons to liters*/
+/* formula =*/
