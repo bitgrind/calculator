@@ -50,3 +50,7 @@ C = (F - 32) / 1.8
 var cel = parseInt(prompt("What is the temp in celsius?"));
 var f = cel * 1.8 + 32;
 alert(f);
+
+var far = parseInt(prompt("What is the temp in fahrenheit?"));
+var c = (far - 32) / 1.8;
+alert(c);
