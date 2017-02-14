@@ -100,7 +100,7 @@ alert(result + 6);
 
 
 
-
+ 
 
 /* will convert gallons to liters*/
 /* formula =*/
